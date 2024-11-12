@@ -2,6 +2,10 @@
 ## Interface: 11200
 ## Title: SpecialTalentUI
 ## Notes: Improved Talent Frame. You can see and interact with all three talent trees at once. Summary of your learned and planned talent points at the top. Plan your template.
+## Title-zhCN:|CFFDD66DD[界面]|R天赋模拟器增强界面
+## Notes-zhCN:|CFFDD66DDSpecialTalentUI|R|N改进天赋框架。你可以同时看到并与三个天赋树互动。
+## Author: KrekoG, Wind, Sunelegy
+## Version: 1.0.0
 ## LoadOnDemand: 1
 ## SavedVariables: SpecialTalentPlannedSaved SpecialTalentFrameSaved
 ## First created: Apr 2006
