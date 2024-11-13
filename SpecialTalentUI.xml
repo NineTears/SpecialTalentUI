@@ -657,7 +657,7 @@
 		</Backdrop>
 		<Layers>
 			<Layer level="OVERLAY">
-				<FontString name="SpecialTalentUI_ResetInstructions" inherits="GameFontNormalSmall" text="Reset talent tree plan:">
+				<FontString name="SpecialTalentUI_ResetInstructions" inherits="GameFontNormalSmall" text="重置天赋方案：">
 					<Anchors>
 						<Anchor point="TOP" relativeTo="$parent">
 							<Offset>
@@ -720,7 +720,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="SpecialTalentUI_ResetAllButton" inherits="UIPanelButtonTemplate" text="All of them">
+			<Button name="SpecialTalentUI_ResetAllButton" inherits="UIPanelButtonTemplate" text="全部">
 				<Size>
 					<AbsDimension x="120" y="21"/>
 				</Size>
@@ -737,7 +737,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="SpecialTalentUI_ResetCancel" inherits="UIPanelButtonTemplate" text="Close">
+			<Button name="SpecialTalentUI_ResetCancel" inherits="UIPanelButtonTemplate" text="关闭">
 				<Size>
 					<AbsDimension x="120" y="21"/>
 				</Size>
