@@ -506,7 +506,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="SpecialTalentRename" inherits="UIPanelButtonTemplate" text="rename">
+			<Button name="SpecialTalentRename" inherits="UIPanelButtonTemplate" text="重命名">
 				<Size>
 					<AbsDimension x="59" y="23"/>
 				</Size>
@@ -595,7 +595,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="SpecialTalentFrameResetButton" inherits="UIPanelButtonTemplate" text="reset">
+			<Button name="SpecialTalentFrameResetButton" inherits="UIPanelButtonTemplate" text="重置">
 				<Size>
 					<AbsDimension x="44" y="23"/>
 				</Size>
@@ -788,7 +788,7 @@
 		</Backdrop>
 		<Layers>
 			<Layer level="OVERLAY">
-				<FontString name="SpecialTalentUI_RenameInstructions" inherits="GameFontNormalSmall" text="Rename your talent plan:">
+				<FontString name="SpecialTalentUI_RenameInstructions" inherits="GameFontNormalSmall" text="重命名天赋方案：">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="$parent">
 							<Offset>
@@ -829,7 +829,7 @@
 					</Layer>
 				</Layers>
 			</EditBox>
-			<Button name="SpecialTalentUI_Rename" inherits="UIPanelButtonTemplate" text="Rename">
+			<Button name="SpecialTalentUI_Rename" inherits="UIPanelButtonTemplate" text="重命名">
 				<Size>
 					<AbsDimension x="120" y="21"/>
 				</Size>
@@ -847,7 +847,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="SpecialTalentUI_RenameCancel" inherits="UIPanelButtonTemplate" text="Cancel">
+			<Button name="SpecialTalentUI_RenameCancel" inherits="UIPanelButtonTemplate" text="取消">
 				<Size>
 					<AbsDimension x="120" y="21"/>
 				</Size>
