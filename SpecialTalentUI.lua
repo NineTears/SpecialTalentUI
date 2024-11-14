@@ -153,7 +153,7 @@ function SpecialTalentFrame_Minimize()
 	if ( not SpecialTalentFrameSaved.tabShown ) then
 		SpecialTalentFrameSaved.tabShown=1;
 	end
-	SpecialTalentFrameMinimizeButton:SetText("<--->");
+	SpecialTalentFrameMinimizeButton:SetText("放大");
 	SpecialTalentFrameMinimizeButton:SetWidth(39);
 	SpecialTalentUI_ResetConfirmationPanel:SetPoint("TOPLEFT", SpecialTalentFrame, "TOPRIGHT", 3, -12);
 	UIPanelWindows["SpecialTalentFrame"] = { area = "left", pushable = 6, whileDead = 1 };
@@ -193,7 +193,7 @@ end
 
 function SpecialTalentFrame_Maximize()
 	SpecialTalentFrameSaved.frameMinimized=nil;
-	SpecialTalentFrameMinimizeButton:SetText(">---<");
+	SpecialTalentFrameMinimizeButton:SetText("缩小");
 	SpecialTalentFrameMinimizeButton:SetWidth(38);
 	SpecialTalentUI_ResetConfirmationPanel:SetPoint("TOPLEFT", SpecialTalentFrame, "TOPRIGHT", -33, -12);
 	UIPanelWindows["SpecialTalentFrame"] = { area = "doublewide", pushable = 6, whileDead = 1 };

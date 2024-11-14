@@ -527,7 +527,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="SpecialTalentFrameNextButtonSmall" inherits="UIPanelButtonTemplate" text="/\">
+			<Button name="SpecialTalentFrameNextButtonSmall" inherits="UIPanelButtonTemplate" text="上页">
 				<Size>
 					<AbsDimension x="38" y="23"/>
 				</Size>
@@ -544,7 +544,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="SpecialTalentFramePreviousButtonSmall" inherits="UIPanelButtonTemplate" text="\/">
+			<Button name="SpecialTalentFramePreviousButtonSmall" inherits="UIPanelButtonTemplate" text="下页">
 				<Size>
 					<AbsDimension x="39" y="23"/>
 				</Size>
@@ -561,7 +561,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="SpecialTalentFrameNextButtonLarge" inherits="UIPanelButtonTemplate" text="/\">
+			<Button name="SpecialTalentFrameNextButtonLarge" inherits="UIPanelButtonTemplate" text="上一页">
 				<Size>
 					<AbsDimension x="59" y="23"/>
 				</Size>
@@ -578,7 +578,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="SpecialTalentFramePreviousButtonLarge" inherits="UIPanelButtonTemplate" text="\/">
+			<Button name="SpecialTalentFramePreviousButtonLarge" inherits="UIPanelButtonTemplate" text="下一页">
 				<Size>
 					<AbsDimension x="59" y="23"/>
 				</Size>
@@ -661,7 +661,7 @@
 					<Anchors>
 						<Anchor point="TOP" relativeTo="$parent">
 							<Offset>
-								<AbsDimension x="0" y="-6"/>
+								<AbsDimension x="0" y="-4"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -829,7 +829,7 @@
 					</Layer>
 				</Layers>
 			</EditBox>
-			<Button name="SpecialTalentUI_Rename" inherits="UIPanelButtonTemplate" text="重命名">
+			<Button name="SpecialTalentUI_Rename" inherits="UIPanelButtonTemplate" text="确定">
 				<Size>
 					<AbsDimension x="120" y="21"/>
 				</Size>
